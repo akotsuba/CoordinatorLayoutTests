@@ -36,8 +36,9 @@
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
-                android:layout_height="?attr/actionBarSize"
+                android:layout_height="100dp"
                 app:layout_collapseMode="pin"
+                android:layout_gravity="top"
                 app:popupTheme="@style/AppTheme.PopupOverlay">
 
                 <ImageButton
@@ -51,6 +52,7 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                app:layout_collapseMode="pin"
                 android:layout_gravity="center_horizontal"
                 android:orientation="vertical">
 
@@ -64,8 +66,7 @@
                     android:layout_height="wrap_content"
                     android:text="Sample text\n lots of text\n"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-                    android:textColor="@android:color/black"
-                    app:layout_collapseMode="pin" />
+                    android:textColor="@android:color/black" />
 
             </LinearLayout>
 
